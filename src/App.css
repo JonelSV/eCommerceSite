@@ -23,6 +23,8 @@
     margin: 0 7.5px 15px;
     margin-right: 7.5px;
     margin-left: 7.5px;
+    background-position: center;
+    background-size: cover;
   }
   
     .content {

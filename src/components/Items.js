@@ -1,0 +1,15 @@
+import React from 'react' 
+
+
+const Items = ({title, imageURL}) => {
+    return (
+    <div className="item" style= {{backgroundImage: `url(${imageURL})`}}>
+              <div className="content">
+                  <h1 className="title">{title}</h1>
+                  <h3 className="subtitle">Shop Now</h3>
+              </div>
+          </div>
+    )
+}
+
+export default Items;

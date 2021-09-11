@@ -47,7 +47,8 @@ return(
 
     <div className="directory">
         {
-            products.categories.map(({title, id, imageUrl}) => <Items title={title} imageUrl ={imageUrl} key ={id}  />)
+            products.categories.map(({title, id, imageUrl, linkUrl}) =>
+             <Items title={title} imageUrl ={imageUrl} key ={id}  linkUrl={linkUrl} />)
         }
 
     </div>

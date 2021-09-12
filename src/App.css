@@ -25,7 +25,13 @@
     margin-left: 7.5px;
     background-position: center;
     background-size: cover;
+    
   }
+
+    .background-image :hover  {
+      cursor: pointer;
+     
+    }
   
     .content {
       height: 90px;
@@ -35,6 +41,7 @@
       align-items: center;
       justify-content: center;
       border: 1px solid black;
+      position: absolute;
     }
     .title {
         font-weight: bold;

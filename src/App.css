@@ -25,6 +25,10 @@
   margin-left: 7.5px;
   background-position: center;
   background-size: cover;
+}
+
+.item :hover{
+  cursor: pointer; 
   
 }
 
@@ -45,9 +49,9 @@
       color: #7a7070;
       text-shadow: 0 0 3px #f0dada, 0 0 5px #c5c5e7;
     }
-
+  
+  
   .subtitle {
   font-weight: lighter;
   font-size: 15px;
   }
-  

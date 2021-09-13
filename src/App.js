@@ -6,17 +6,15 @@ import Hats from './components/Hats';
 
 
 const App = () => {
-  const HatsPage = () => {
-    <div>
-      <h2>Hats</h2>
-    </div>
-  }
+  
+  
 
 
   return (
+
+
     <div>
       <Switch>
-        <Route exact path='/hats' component={Hats} />
         <Route exact path= '/' component= {Homepage}/>
       </Switch>
       

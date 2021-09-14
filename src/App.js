@@ -10,12 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const App = () => {
-  
-  
-
-
+    
   return (
-
 
     <div>
       <Navbar /> 
@@ -23,8 +19,7 @@ const App = () => {
           <Route exact path= '/Tours' component= {Tours}/>
           <Route exact path= '/About' component= {About}/>
           <Route exact path= '/Contact'  component= {Contact}/>
-          <Route exact path= '/' component= {Homepage}/>             
-           
+          <Route exact path= '/' component= {Homepage}/>                
         </Switch>
         
     </div>

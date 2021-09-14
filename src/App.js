@@ -1,8 +1,11 @@
 import React from 'react' 
 import { Switch, Route } from 'react-router';
-import Homepage from './pages/Homepage';
 import './App.css'
-import Hats from './components/Hats';
+import Navbar from './pages/Navbar';
+import Homepage from './pages/Homepage';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const App = () => {
@@ -14,10 +17,14 @@ const App = () => {
 
 
     <div>
-      <Switch>
-        <Route exact path= '/' component= {Homepage}/>
-      </Switch>
-      
+      <Navbar /> 
+        <Switch>
+          <Route exact path= '/About' component= {About}/>
+          <Route exact path= '/Contact'  component= {Contact}/>
+          <Route exact path= '/' component= {Homepage}/>             
+           
+        </Switch>
+        
     </div>
 
   )}
